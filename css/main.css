@@ -103,114 +103,106 @@ textarea {
    ========================================================================== */
 /* -------------------- Base Header + Footer Styles --------------------------*/
 header, footer {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* -- Header -- */
-header {
-
-}
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap
+}
 
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* -------------------- Mobile styles - Homepage --------------------------*/
-main {
-
-}
 
 .hero-area {
-
-}
-.hero-area .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 /* aside */
 aside {
-
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
 }
 aside .content-wrapper {
-
-}
-.form-desc {
-
-}
-.form {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Features */
 .features {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
-.features .content-wrapper {
-
-}
-.features-items {
-
-}
-.features article {
-
-}
-.fontawesome-icon {
-
-}
-.features-item-desc {
-
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Reviews */
 .reviews {
-
-}
-.reviews .content-wrapper {
-
-}
-.reviews .content-wrapper h2 {
-
-}
-.reviews .content-wrapper article {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-/* Footer */
-footer {
+/* ================== About Page =======================*/
+ .mission {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
+ .contact-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
 
-}
-footer .content-wrapper {
+ /* =============== FAQ Page =========================*/
+ .faq {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
 
-}
-.footer-content {
-
-}
-.contact {
-
-}
-.social {
-
-}
-.social-icons {
-
-}
-
-.copyright {
-
-}
-
-
-
-
-
-
-
-
-
-
-
+ .faq .content-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+ }
 
 
 
