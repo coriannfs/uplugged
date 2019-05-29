@@ -111,6 +111,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  background-color: #202322;
 }
 
 ul, ol {
@@ -120,6 +121,10 @@ ul, ol {
 a {
   color: #e2e3ed;
   text-decoration: none;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 400;
 }
 
 h2 {
@@ -154,6 +159,31 @@ address {
   width: 90%;
   margin: 50px 0;
 }
+/* Button */
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* -------------------- Base Header + Footer Styles --------------------------*/
 header, footer {
@@ -161,6 +191,7 @@ header, footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+
 }
 
 /* -- Header -- */
@@ -179,13 +210,18 @@ header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-flow: row wrap
+  flex-flow: row wrap;
+  font-weight: 550;
+  text-transform: uppercase;
 }
 
 header nav ul {
   width:100%;
   display: flex;
   justify-content: space-around;
+}
+header nav ul li {
+  margin: 0 18px;
 }
 .header-divider {
   width: 100%;
@@ -195,10 +231,14 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  color: #e2e3ed;;
 }
 
 footer p {
   margin: 0;
+}
+footer h3, h4 {
+  font-weight:400;
 }
 
 footer .content-wrapper {
@@ -232,6 +272,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
 }
 
 /* aside */
@@ -240,6 +281,17 @@ aside {
  justify-content: center;
  align-items: center;
  flex-flow: row wrap;
+ background-color: #527158;
+ color: #e2e3ed;
+}
+
+aside h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+aside p {
+  font-size: 1em;
 }
 
 /* Features */
@@ -247,15 +299,19 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
 }
 
 .features h2 {
   margin-bottom: 60px;
+  text-align: left;
+  font-weight: 400;
 }
 
 .features article {
   width: 55%;
   margin: 30px 0;
+  text-align:center;
 }
 
 .features .features-items {
@@ -273,9 +329,12 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
+  color: #e2e3ed;
 }
 .reviews h2 {
   margin-bottom: 40px;
+  font-weight: 400;
 }
 
 .reviews h3 {
