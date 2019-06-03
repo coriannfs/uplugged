@@ -281,7 +281,13 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  height: 500px;
   color: #e2e3ed;
+  background: url("../img/hero-img.jpg") center no-repeat;
+  background-size: cover;
+}
+.hero-area .content-wrapper {
+  margin: 0;
 }
 
 /* aside */
@@ -309,12 +315,15 @@ aside p {
   justify-content: center;
   flex-flow: row wrap;
   color: #e2e3ed;
+  background: url("../img/features-img.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
   margin-bottom: 60px;
   text-align: left;
   font-weight: 400;
+
 }
 
 .features article {
@@ -544,7 +553,9 @@ aside p {
     display:none;
   }
   /* Hero Area */
-
+  .hero-area {
+    height: 600px;
+  }
   /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
@@ -645,6 +656,7 @@ aside p {
   }
 
   /* Hero */
+
   .hero-area h1 {
     width: 60%;
   }
