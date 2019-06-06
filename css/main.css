@@ -403,7 +403,8 @@ aside p {
 
  .map iframe {
    width: 100%;
-   height: 100%:auto;position: absolute;
+   height: 100%;
+   position: absolute;
    top: 0;
    left: 0;
  }
@@ -660,6 +661,10 @@ aside p {
      width: 46%;
    }
 
+   .map figure {
+     padding-bottom: 45.5%;
+   }
+
    .contact-section .content-wrapper h2 {
      width: 80%;
    }
@@ -724,6 +729,10 @@ aside p {
   }
 
   /* =============== ABOUT PAGE ============*/
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 100%;
