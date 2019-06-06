@@ -279,6 +279,14 @@ footer .copyright {
 
 /* -------------------- Mobile styles - Homepage --------------------------*/
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .hero-area {
   display: flex;
   justify-content: center;
@@ -542,7 +550,10 @@ aside p {
     width: 100%;
     justify-content: space-between;
   }
-
+  header figure {
+    width: 50%;
+    justify-content: flex-start;
+  }
   header nav {
     width:20%;
   }
@@ -582,7 +593,7 @@ aside p {
   }
 
   .features .features-item-desc {
-    width: 50%;
+    width: 75%;
   }
 
   /* Reviews */
@@ -592,10 +603,15 @@ aside p {
   }
 
   .reviews article div {
-    width: 49%;
+    width: 50%;
+  }
+  .reviews article div h3 {
+    width: 100%;
   }
   .reviews figure {
     width: 50%;
+    margin-right: 15px;
+    margin-top: 30px;
   }
 
   /* Footer */
@@ -684,7 +700,9 @@ aside p {
   .features article {
     flex-basis: 33%;
   }
-
+  .features .features-item-desc {
+    width: 50%;
+  }
   /* reviews */
   .reviews article div {
     width: 42%;
