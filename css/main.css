@@ -144,11 +144,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -257,7 +257,9 @@ footer .contact {
   margin-bottom: 50px;
   text-align: center;
 }
-
+ footer .social {
+   text-align: center;
+ }
 footer .social-icons {
   display:flex;
   justify-content: space-around;
@@ -591,6 +593,9 @@ aside p {
 
   .reviews article div {
     width: 49%;
+  }
+  .reviews figure {
+    width: 50%;
   }
 
   /* Footer */
